@@ -137,7 +137,7 @@ const firebaseConfig = {
         <h3 class="snippet-title">
           {#if snippet.icon}
             <!-- Update src attribute to correctly point to the SVG icon -->
-            <img src={`../../static/icons/${snippet.icon}`} alt="Snippet Icon" />
+            <img src={`/static/${snippet.icon}`} alt="Snippet Icon" />
           {/if}
           {snippet.title}
           <div class="like-section">
