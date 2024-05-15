@@ -294,67 +294,39 @@ const firebaseConfig = {
     overflow-x: auto;
   }
 
-  .bn3 {
-    position: absolute;
-    top: 0;
-    right: 5px;
-    padding: 5px 10px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: #ffffff;
-    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
-    text-align: center;
-    transition: all 0.2s;
-    cursor: pointer;
+  .button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; /* Add some margin to separate the buttons from the code snippet */
 }
 
-    .share-button {
-    position: absolute;
-    top: 45px;
-    right: 5px;
-    padding: 5px 10px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: #ffffff;
-    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
-    text-align: center;
-    transition: all 0.2s;
-    cursor: pointer;}
-    
-    
-    .photo-button {
-    position: absolute;
-    top: 90px;
-    right: 5px;
-    padding: 5px 10px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: #ffffff;
-    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
-    text-align: center;
-    transition: all 0.2s;
-    cursor: pointer;}
-    
-  
-.bn3:hover {
+/* Remove absolute positioning for individual buttons */
+.bn3,
+.share-button,
+.photo-button {
+  position: relative;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+/* Adjust button hover styles */
+.bn3:hover,
+.share-button:hover,
+.photo-button:hover {
   color: black;
   background-color: rgb(255, 255, 255);
 }
+
 
 
   .reminder {
@@ -413,5 +385,6 @@ const firebaseConfig = {
   }
 
 </style>
+
 
 
