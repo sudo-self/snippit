@@ -193,7 +193,7 @@ const firebaseConfig = {
 </main>
 
 <footer class="footer">
-  <a href="https://snippit.jessejesse.com" target="_blank" rel="noopener noreferrer">Snippit&nbsp;&#10084;&nbsp;SvelteKit</a>
+  <a href="https://snippit-nu.vercel.app" target="_blank" rel="noopener noreferrer">Snippit&nbsp;&#10084;&nbsp;SvelteKit&copy;2024</a>
 </footer>
 <style>
  
