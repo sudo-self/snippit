@@ -129,6 +129,36 @@ const firebaseConfig = {
 </script>
 
 <main>
+  <h1>Welcome to Snippit!</h1>
+  <button on:click="{() => document.body.classList.toggle('light-theme')}">Toggle Theme</button>
+   <section>
+    <h2><code>SHARE. YOUR. CODE.</code></h2>
+    <div>
+      <label for="snippetTitle"><code>create snippit</code></label>
+      <select id="iconSelect" bind:value={selectedIcon}>
+        <option value="">language</option>
+        <option value="snip.svg">Plain Text</option>
+        <option value="css.svg">CSS</option>
+        <option value="html.svg">HTML</option>
+        <option value="svelte.svg">Svelte</option>
+        <option value="rust.svg">Rust</option>
+        <option value="react.svg">ReactJS</option>
+        <option value="js.svg">VanilliaJS</option>
+        <option value="nextjs.svg">NextJS</option>
+        <option value="tailwind.svg">Tailwind CSS</option>
+        <option value="ts.svg">typescript</option>
+        <option value="tailwind.svg">Tailwind CSS</option>
+        <option value="json.svg">JSON</option>
+        <option value="link.svg">http</option>
+      </select>
+      <input type="text" id="snippetTitle" placeholder="name" bind:value={newSnippetTitle}>
+      <textarea id="snippetCode" rows="5" placeholder="share your code" bind:value={newSnippetCode}></textarea>
+      <button on:click={addSnippet}>Snippit!</button>
+      {#if newSnippetTitle && newSnippetCode && selectedIcon}
+        <p class="reminder">✅ my snippet meets community guidelines</p>
+      {/if}
+    </div>
+  </section>
 <section>
   <h2>Shared Snippets</h2>
   <div class="snippet-container">
@@ -383,4 +413,5 @@ const firebaseConfig = {
   }
 
 </style>
+
 
