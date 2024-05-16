@@ -100,7 +100,7 @@ const firebaseConfig = {
 
   function displayManualSharePrompt(snippet) {
     // Fallback behavior: Display a prompt with the snippet details for manual sharing
-    alert("To share the snippet titled '" + snippet.title + "', copy the following code: \n\n" + snippet.code);
+    alert("Snippit '" + snippet.title + "', copy the following code: \n\n" + snippet.code);
   }
 
   function takeScreenshot(snippetId) {
