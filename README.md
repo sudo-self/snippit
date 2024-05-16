@@ -1,5 +1,7 @@
 # snippitz <a href="https://snippitz.vercel.app">share your code</a>
-![IMG_3450](https://github.com/sudo-self/snippitz/assets/119916323/959c0a01-5a75-4784-944c-ad66e348ebd6)
+![Screenshot 2024-05-15 at 10 02 44 PM](https://github.com/sudo-self/snippitz/assets/119916323/7584fcd0-fd7d-4a4c-9724-9916d84c572f)
+
+
 
 ## create-svelte
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
