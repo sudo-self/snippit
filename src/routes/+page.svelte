@@ -155,7 +155,7 @@ const firebaseConfig = {
       <textarea id="snippetCode" rows="5" placeholder="share your code" bind:value={newSnippetCode}></textarea>
       <button on:click={addSnippet}>Snippit!</button>
       {#if newSnippetTitle && newSnippetCode && selectedIcon}
-       <p class="reminder"><img src="./police.svg" alt="Police Icon">community guidelines</p>
+       <p class="reminder"><img src="./police.svg" alt="Police Icon">my snippitz follows community guidelines</p>
       {/if}
     </div>
   </section>
