@@ -127,9 +127,9 @@ const firebaseConfig = {
     link.click();
   }
 </script>
-
 <main>
-  <h1>Welcome to Snippitz!<a class="github-button" href="https://github.com/sudo-self/snippitz" data-color-scheme="no-preference: light_high_contrast; light: light_high_contrast; dark: light_high_contrast;" data-icon="octicon-star" data-size="large" aria-label="Star sudo-self/snippitz on GitHub">Star</a></h1> 
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<h1>Welcome to Snippitz!<a class="github-button" href="https://github.com/sudo-self/snippitz" data-color-scheme="no-preference: light_high_contrast; light: light_high_contrast; dark: light_high_contrast;" data-icon="octicon-star" data-size="large" aria-label="Star sudo-self/snippitz on GitHub">Star</a></h1> 
 <button on:click="{() => document.body.classList.toggle('light-theme')}">Toggle Theme</button>
    <section>
     <h2><code>SHARE. YOUR. CODE.</code></h2>
