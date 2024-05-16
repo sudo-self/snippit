@@ -129,7 +129,7 @@ const firebaseConfig = {
 </script>
 
 <main>
-  <h1>Welcome to Snippit!</h1>
+  <h1>Welcome to Snippitz!</h1>
   <button on:click="{() => document.body.classList.toggle('light-theme')}">Toggle Theme</button>
    <section>
     <h2><code>SHARE. YOUR. CODE.</code></h2>
