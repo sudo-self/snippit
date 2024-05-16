@@ -136,10 +136,10 @@ Welcome to Snippitz!
    <section>
     <h2><code>SHARE. YOUR. CODE.</code></h2>
     <div>
-      <label for="snippetTitle"><code>create snippit</code></label>
+      <label for="snippetTitle"><code>create snippitz</code></label>
       <select id="iconSelect" bind:value={selectedIcon}>
         <option value="">language</option>
-        <option value="snip.svg">Plain Text</option>
+        <option value="snip.svg">NO Code</option>
         <option value="css.svg">CSS</option>
         <option value="html.svg">HTML</option>
         <option value="svelte.svg">Svelte</option>
@@ -153,9 +153,9 @@ Welcome to Snippitz!
         <option value="json.svg">JSON</option>
         <option value="link.svg">http</option>
       </select>
-      <input type="text" id="snippetTitle" placeholder="name" bind:value={newSnippetTitle}>
+      <input type="text" id="snippetTitle" placeholder="name your snippitz" bind:value={newSnippetTitle}>
       <textarea id="snippetCode" rows="5" placeholder="share your code" bind:value={newSnippetCode}></textarea>
-      <button on:click={addSnippet}>Snippit!</button>
+      <button on:click={addSnippet}>Post Snippitz</button>
       {#if newSnippetTitle && newSnippetCode && selectedIcon}
        <p class="reminder"><img src="./police.svg" alt="Police Icon">my snippitz follows community guidelines</p>
       {/if}
