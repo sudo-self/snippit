@@ -162,7 +162,7 @@ Welcome to Snippitz!
     </div>
   </section>
 <section>
-  <h2>Shared Snippets</h2>
+  <h2>Community Snippitz</h2>
   <div class="snippet-container">
     {#each codeSnippets as snippet}
       <div class="snippet" id={`snippet-${snippet.id}`}>
