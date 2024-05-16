@@ -129,8 +129,10 @@ const firebaseConfig = {
 </script>
 <main>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
-<h1>Welcome to Snippitz!</h1> 
+<h1>
+Welcome to Snippitz!
 <a class="github-button" href="https://github.com/sudo-self/snippitz" data-color-scheme="no-preference: light_high_contrast; light: light_high_contrast; dark: light_high_contrast;" data-icon="octicon-star" data-size="large" aria-label="Star sudo-self/snippitz on GitHub">Star</a>
+</h1>
    <section>
     <h2><code>SHARE. YOUR. CODE.</code></h2>
     <div>
